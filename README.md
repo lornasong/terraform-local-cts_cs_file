@@ -15,7 +15,7 @@ The module uses the `local` Terraform provider to create text files. A directory
 | Ecosystem | Version |
 |-----------|---------|
 | [consul](https://www.consul.io/downloads) | >= 1.8 |
-| [consul-terraform-sync](https://www.consul.io/docs/nia) | >= 0.4.0 |
+| [consul-terraform-sync](https://www.consul.io/docs/nia) | >= 0.2.0 |
 | [terraform](https://www.terraform.io) | >= 0.13 |
 
 ### Terraform Providers
