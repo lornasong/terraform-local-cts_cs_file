@@ -4,6 +4,8 @@ This Terraform module creates local text files. Using this module in automation 
 
 When a new service is registered or deregistered a text-file, with the service's name is created or deleted. The content of the text-file is the tags associated with the instances of that service at the time of registration.
 
+Intended to be used with the catalog-services condition.
+
 ## Feature
 
 The module uses the `local` Terraform provider to create text files. A directory "resources" is created in the CTS generated task subdirectory. The text files are named after the monitored Consul service instances.
